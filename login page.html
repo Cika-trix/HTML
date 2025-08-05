@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Character encoding -->
+    <meta charset="UTF-8">
+
+    <!-- Responsive design for mobile -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page title shown in browser tab -->
+    <title>Login Page</title>
+</head>
+<body>
+    
+    <!-- Login form container with fixed width and centered on the page -->
+    <form style="margin: 0 auto; width: 300px;">
+
+        <!-- Heading for the login form -->
+        <h2 style="text-align: center;">EDGEDEV BOOTCAMP LOGIN</h2>
+
+        <!-- Username label and input field -->
+        <label for="Username">Username</label><br>
+        <input type="text" id="name" name="name" size="45"><br><br>
+
+        <!-- Password label and input field -->
+        <label for="Password">Password</label><br>
+        <input type="password" id="password" name="password" size="45"><br><br>
+        
+        <!-- Remember Me checkbox and Forgot Password link, aligned side by side -->
+        <div style="display: flex; justify-content: space-between; align-items: center; margin-top: 10px;">
+            <label>
+                <input type="checkbox" name="remember"> Remember Me
+            </label>
+
+            <!-- Forgot password link (currently inactive) -->
+            <a href="#" style="text-decoration: none;">Forgot Password?</a>
+        </div><br>
+
+        <!-- Submit button for login -->
+        <input type="submit" value="LOGIN">
+    </form>
+
+</body>
+</html>

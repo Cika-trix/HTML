@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sign Up Form</title>
+</head>
+<body>
+
+     <!-- Login form container with fixed width and centered on the page -->
+    <form style="margin: 0 auto; width: 300px;" action="#" method="post">
+ 
+  
+         <!-- Heading for the login form -->
+        <h2 style="text-align: center;">EDGEDEV BOOTCAMP REGISTRATION FORM</h2>
+
+         <!-- Full Name -->
+         <label for="fullname">Full Name:</label><br>
+         <input type="text" id="fullname" name="fullname" placeholder="Enter full name" size="45" required><br><br>
+
+         <!-- Email -->
+         <label for="email">Email:</label><br>
+         <input type="email" id="email" name="email" placeholder="Enter your email" size="45" required><br><br>
+
+          <!-- Password -->
+          <label for="password">Password:</label><br>
+         <input type="password" id="password" name="password" placeholder="Enter your password" size="45" required><br><br>
+
+         <!-- Confirm Password -->
+         <label for="confirm_password">Confirm Password:</label><br>
+          <input type="password" id="confirm_password" name="confirm_password" placeholder="Re-enter your password"size="45" required><br><br>
+
+         <!-- Gender -->
+         <label>Gender:</label><br>
+         <input type="radio" id="male" name="gender" value="Male">
+         <label for="male">Male</label>
+         <input type="radio" id="female" name="gender" value="Female">
+         <label for="female">Female</label>
+         <input type="radio" id="other" name="gender" value="Other">
+         <label for="other">Other</label><br><br>
+
+         <!-- Date of Birth (Calendar Input) -->
+         <label for="dob">Date of Birth:</label><br>
+         <input type="date" id="dob" name="dob" required><br><br>
+
+         <!-- Buttons -->
+         <input type="submit" value="Register">
+         <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
